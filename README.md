@@ -1,2 +1,2 @@
-# C-
-This repository is used to share all C++ codes developed by me.
+# C++
+This repository is used to store and to share all C++ codes developed by me.
