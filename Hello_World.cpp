@@ -10,7 +10,7 @@
 using namespace std; // Allows to reuse the same function name for differents actions.
 
 int main (int argc, char *argv[])
-//	argc -> A integer that contains the argumens countaing that follows in argv
+//	argc -> A integer that contains the arguments countaing that follows in argv
 //	argv -> A array of null-terminated string representing command-line 
 //          arguments entered by the program user	
 {
