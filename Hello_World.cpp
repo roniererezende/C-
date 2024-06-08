@@ -7,7 +7,7 @@
 	   	
 #include <iostream> // library for output data, it can print something on screen
 
-using namespace std; // Allows to reuse the seme function name for differents actions.
+using namespace std; // Allows to reuse the same function name for differents actions.
 
 int main (int argc, char *argv[])
 //	argc -> A integer that contains the argumens countaing that follows in argv
