@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int main()
+int main()			// Main function
 {
 	int age;        // Integer variable that stores age
 	float   height; // Floating variable that stores height 
@@ -20,5 +20,5 @@ int main()
 	cout << height << endl; // Prints heightt
 	cout << gender << endl;	// Prints gender (male = 0 / female = 1)
 	
-	return 0;
+	return 0;		// Return 0, a integer solictated by int function
 }
