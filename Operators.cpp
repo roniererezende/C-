@@ -52,7 +52,7 @@ int main(void)
 	n2--; // n2 = n2 - 1 
 	result_dec_1  = n2;
 	
-    // Unary subtractionoperator -=
+    // Unary subtraction operator -=
 	n2 -= 5;
 	result_dec_2 = n2;
 	
@@ -70,5 +70,5 @@ int main(void)
 	cout << result_dec_1  << endl;
 	cout << result_dec_2  << endl;
 		
-	return 0;
+	return 0; // Return 0, a integer solictated by int function
 }
