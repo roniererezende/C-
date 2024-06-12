@@ -1,7 +1,8 @@
-#include <iostream>
+#include <iostream>  // Library for output data, it can print something on screen
 
-using namespace std;
+using namespace std; // Allows to reuse the same function name for differents actions.
 
+// Main function
 int main(void)
 {
 	// Declaring integer variables
@@ -61,7 +62,7 @@ int main(void)
 	
 	cout << num << endl;
 	
-	// Nested if, example:
+	// Nested if and else, example:
 	if(num > 5)
 	{
 		if(num <= 10)
