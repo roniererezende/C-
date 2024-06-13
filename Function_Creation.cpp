@@ -14,7 +14,7 @@
 using namespace std; // Allows to reuse the same function name for differents actions.
 
 // Function Prototype
-bool par(int num);
+bool even(int num);
 void message(void);
 
 // Main function
@@ -31,7 +31,7 @@ int main(void)
 	cin  >> n;
 	
 	// Indicate if number is even or odd
-	if(par(n))
+	if(even(n))
 		cout << "The number " << n << " is even." << endl;
 	else
 		cout << "The number " << n << " is odd. " << endl; 
@@ -46,7 +46,7 @@ int main(void)
  *			odd  -> false
  */
 	 
-bool par(int num)
+bool even(int num)
 {
 	if((num % 2) == 0)
 		return true;
