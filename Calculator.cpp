@@ -15,6 +15,7 @@
 
 using namespace std; // Allows to reuse the same function name for differents actions.
 
+// main function
 int main(void)
 {
     // Variable declaration
