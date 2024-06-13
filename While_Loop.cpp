@@ -1,3 +1,9 @@
+/*******************************************************************************
+ * Name: While_Loop.cpp
+ * Author:	Roniere Rezende
+ * Date: 13/06/2024
+ * Comments: Code using while loop
+ ******************************************************************************/
 #include <iostream>  // library for output data, it can print something on screen.
 
 using namespace std; // Allows to reuse the same function name for differents actions.
@@ -5,6 +11,7 @@ using namespace std; // Allows to reuse the same function name for differents ac
 // Main Function
 int main(void)
 {
+	// Variable declaration
 	int n = 1;
 	
 	// while loop testing if n is lower or equal 100 and print all number

@@ -1,3 +1,9 @@
+/*******************************************************************************
+ * Name: Operators.cpp
+ * Author:	Roniere Rezende
+ * Date: 07/06/2024
+ * Comments: Code using operators
+ ******************************************************************************/
 #include <iostream>  // library for output data, it can print something on screen
 
 using namespace std; // Allows to reuse the same function name for differents actions.

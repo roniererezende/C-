@@ -1,3 +1,9 @@
+/*******************************************************************************
+ * Name: Switch_Case.cpp
+ * Author:	Roniere Rezende
+ * Date: 12/06/2024
+ * Comments: Code using switch->case
+ ******************************************************************************/
 #include <iostream>	 // library for output data, it can print something on screen.
 
 using namespace std; // Allows to reuse the same function name for differents actions.
