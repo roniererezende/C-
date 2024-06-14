@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="main.cpp" Top="Yes" Tabpos="13" TopLine="1">
+			<Cursor Line="10" Column="2"/>
+		</File>
+		<File Name="Math.cpp" Top="No" Tabpos="14" TopLine="1">
+			<Cursor Line="18" Column="39"/>
+			<Selection Line="18" Column="1"/>
+		</File>
+		<File Name="main.h" Top="No" Tabpos="15" TopLine="1">
+			<Cursor Line="4" Column="22"/>
+		</File>
+	</Files>
+</Layout>
