@@ -14,8 +14,8 @@
 	<CompilerType Value="CPP"/>
 	<AppType Value="CONSOLE"/>
 	<Files>
-		<File Name="main.cpp"/>
+		<File Name="Creating_Modules.cpp"/>
 		<File Name="Math.cpp"/>
-		<File Name="main.h"/>
+		<File Name="Math.h"/>
 	</Files>
 </Project>
