@@ -11,18 +11,18 @@ void foo_vector(int vec[]);
 int main(void)
 {
 	// Variable declaration
-	int var = 10;
-	int *pvar;
+	int var = 10; // Declaring a variable
+	int *pvar;    // Declaring a pointer
 	
 	// Memory Allocation
-	int* parray = new int[10];   // It's allocating in memory space for 10 integers
-	int aux[10];              // Vector declaration
+	int* parray = new int[10]; // It's allocating in memory space for 10 integers
+	int aux[10];               // Vector declaration
 	
-	pvar = &var;              // Address of variable var
+	pvar = &var;               // Address of variable var
 	
-	cout << *pvar << endl;    // Reads the content of pvar
+	cout << *pvar << endl;     // Reads the content of pvar
 	
-	*pvar = 30;				  // Pass value address of var
+	*pvar = 30;				   // Pass value address of var
 	cout << var << endl;;
 	
 	foo_pass_value(var);      // Parameter -> value of  variable "var"
@@ -42,6 +42,7 @@ int main(void)
     *(parray + 2) = 30;
     *(parray + 3) = 40;
     
+    // Inittialization vector with values
     aux[0] =  11;
     aux[1] =  22;
     aux[2] =  33;
@@ -53,6 +54,7 @@ int main(void)
     aux[8] =  99;
     aux[9] = 110;
     
+    // Prints the contents of parray and aux
 	cout << *(parray + 0) << endl;
 	cout << *(parray + 1) << endl;	
 	cout << *(parray + 2) << endl;
@@ -87,9 +89,12 @@ int main(void)
 	
 	cout << "You typed: " << parray[5] << endl;
 	
-	delete[] parray; // Deallocated array "parray"
+	delete[] parray; // Deallocated array "parray", that is, it realeses allocated memory
+	delete pvar;
 	
 	cout << "You typed: " << parray << endl;
+	parray = NULL; // Delete a deallocated array
+	pvar = NULL;
 	
 	return 0;
 }
