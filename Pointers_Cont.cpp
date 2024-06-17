@@ -1,8 +1,8 @@
 /*******************************************************************************
- * Name:     Char_Arrays.cpp
+ * Name:     Pointers_Cont.cpp
  * Author:   Roniere Rezende
- * Date:   	 15/06/2024
- * Comments: Code examples for character arrays (strings)
+ * Date:   	 17/06/2024
+ * Comments: Code examples for pointers
  * 
  ******************************************************************************/
 
